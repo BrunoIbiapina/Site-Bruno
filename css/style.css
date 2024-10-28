@@ -727,7 +727,7 @@ span {
     }
 
     .home .profession-container .profession-box {
-        position: fixed;
+        
         top: 1000px; /* Ajuste este valor para descer o círculo */
         left: 0;
         width: 100%;
