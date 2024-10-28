@@ -863,3 +863,8 @@ span {
 img {
     border-radius: 20px;
 }
+@media (max-width: 430px) {
+    .home .profession-box .circle {
+        display: none; /* Remove o círculo em telas menores como as dos iPhones */
+    }
+}
