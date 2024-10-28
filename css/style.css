@@ -807,13 +807,7 @@ span {
         grid-template-columns: 1fr;
         
     }
-    /* Ajuste do título e descrição para que sempre fiquem visíveis */
-.portfolio-box h4,
-.portfolio-box p {
-    position: static;
-    opacity: 1; /* Deixa sempre visível */
-    transform: none;
-}
+    
 }
 
 @media (max-width: 450px) {
