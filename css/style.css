@@ -143,6 +143,11 @@ section {
     font-size: 1.6rem;
 }
 
+/* Oculta a imagem por padrão */
+.profile-img {
+    display: none;
+}
+
 .home-content .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -624,6 +629,19 @@ span {
 
     .footer {
         padding: 2rem 3%;
+    }
+}
+/* Imagem em cima do titulo */
+
+@media (max-width: 768px) {
+    .profile-img {
+        display: block;
+        width: 100px; /* Ajuste conforme necessário */
+        height: 100px;
+        border-radius: 50%; /* Torna a imagem circular */
+        margin: 0 auto 80px;/* Margem negativa para subir a imagem */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        object-fit: cover; /* Garante que a imagem preencha o contêiner */
     }
 }
 
