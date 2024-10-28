@@ -630,10 +630,9 @@ span {
     .footer {
         padding: 2rem 3%;
     }
-}
-/* Imagem em cima do titulo */
+}/* Imagem em cima do titulo */
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
     .profile-img {
         display: block;
         width: 100px; /* Ajuste conforme necessário */
