@@ -765,7 +765,7 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 100rem;  /* Ajuste este valor para descer o fundo roxo */
+        top: 200rem;  /* Ajuste este valor para descer o fundo roxo */
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
