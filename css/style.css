@@ -805,7 +805,12 @@ span {
 
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
-        
+        .portfolio-box h4,
+        .portfolio-box p {
+        position: static;
+        opacity: 1; /* Deixa sempre visível */
+        transform: none;
+}
     }
 }
 
