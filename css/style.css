@@ -587,7 +587,7 @@ span {
     }
 
     .home .profession-container .overlay {
-        right: -12%;
+        right: -10%;
     }
 
     .home-img img {
@@ -728,7 +728,7 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 450px;
+        top: 800px; /* Ajuste este valor para descer o círculo */
         left: 0;
         width: 100%;
     }
@@ -739,7 +739,7 @@ span {
         transform-origin: 0;
     }
 
-    .home .profession-box .profession:nth-child(1) {
+    .home .profession-box .profession:nth-child(0) {
         transform: rotate(-90deg) translate(-120px, -210px);
     }
 
@@ -755,9 +755,6 @@ span {
         transform: rotate(90deg) translate(-115px, -450px);
     }
 
-    .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-220px, -325px);
-    }
 
     .home .profession-box .circle {
         position: fixed;
@@ -768,7 +765,7 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 70rem;
+        top: 100rem;  /* Ajuste este valor para descer o fundo roxo */
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
