@@ -143,11 +143,6 @@ section {
     font-size: 1.6rem;
 }
 
-/* Oculta o ticker de notícias por padrão */
-.news-ticker {
-    display: none; /* Oculta o ticker em telas maiores */
-}
-
 
 .home-content .social-media a {
     display: inline-flex;
@@ -869,44 +864,5 @@ span {
 img {
     border-radius: 20px;
 }
-/* Exibe o ticker apenas em smartphones (telas menores que 480px) */
-@media (max-width: 480px) {
-    .news-ticker {
-        display: block;
-        overflow: hidden;
-        white-space: nowrap;
-        background-color: #f0f0f5; /* Cor de fundo mais suave */
-        padding: 15px 0;
-        font-size: 1.6rem;
-        color: #754ef9; /* Cor de texto para combinar com o layout */
-        font-weight: bold;
-        text-align: center;
-        position: relative;
-        border-top: 2px solid #754ef9; /* Borda superior para estilo */
-        border-bottom: 2px solid #754ef9; /* Borda inferior para estilo */
-    }
-    }
 
-    /* Estilo do conteúdo do ticker */
-    .ticker-content {
-        display: inline-block;
-        animation: ticker-scroll 10s linear infinite;
-        padding-left: 100%; /* Faz com que o texto comece fora da tela */
-    }
-
-    /* Define o efeito de animação */
-    @keyframes ticker-scroll {
-        0% {
-            transform: translateX(100%); /* Começa fora da tela à direita */
-        }
-        100% {
-            transform: translateX(-100%); /* Sai da tela à esquerda */
-        }
-    }
-
-    /* Estilo para cada item de notícia */
-    .ticker-item {
-        margin-left: 70px; /* Espaçamento entre as notícias */
-        display: inline-block;
-    }
 
