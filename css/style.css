@@ -757,10 +757,7 @@ span {
 
 
     .home .profession-box .circle {
-        position: fixed;
-        width: 670px;
-        height: 670px;
-        z-index: -1;
+
         display: none; /* Remove o círculo no modo responsivo */
     }
 
