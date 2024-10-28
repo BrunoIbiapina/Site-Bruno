@@ -728,7 +728,7 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 900px; /* Ajuste este valor para descer o círculo */
+        top: 1000px; /* Ajuste este valor para descer o círculo */
         left: 0;
         width: 100%;
     }
@@ -862,10 +862,4 @@ span {
 }
 img {
     border-radius: 20px;
-}
-@media (max-width: 430px) {
-    .home .profession-container .circle,
-    .home .profession-box .circle {
-        display: none !important; /* Força o círculo a desaparecer */
-    }
 }
