@@ -228,6 +228,31 @@
     </label>
         <input type="submit" value="Enviar Mensagem" class="btn">
     </form>
+    <div id="thank-you-message" style="display:none;">
+        <p>Obrigado! Sua mensagem foi enviada com sucesso. Entraremos em contato em breve.</p>
+    </div>
+    
+    <script>
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Impede o envio padrão
+    
+        // Enviar o formulário com AJAX
+        fetch(this.action, {
+            method: this.method,
+            body: new FormData(this),
+            headers: { 'Accept': 'application/json' }
+        }).then(response => {
+            if (response.ok) {
+                this.style.display = "none"; // Oculta o formulário
+                document.getElementById("thank-you-message").style.display = "block"; // Exibe a mensagem de agradecimento
+            } else {
+                alert("Ocorreu um erro ao enviar sua mensagem. Tente novamente.");
+            }
+        }).catch(error => {
+            alert("Ocorreu um erro ao enviar sua mensagem. Tente novamente.");
+        });
+    });
+    </script>
 </section>
 
     <!-- footer design -->
