@@ -811,6 +811,10 @@ span {
     html {
         font-size: 50%;
     }
+    
+    .portfolio .portfolio-container {
+        grid-template-columns: 1fr;
+    }
 
     #darkMode-icon {
         right: 6rem;
