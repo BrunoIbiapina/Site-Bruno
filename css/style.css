@@ -805,11 +805,10 @@ span {
 
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
-        .portfolio-box:hover {
-            transform: none; /* Remove qualquer transformação no hover */
-        }
+        
     }
 }
+
 @media (max-width: 450px) {
     html {
         font-size: 50%;
